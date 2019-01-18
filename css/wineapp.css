@@ -1,0 +1,132 @@
+.banner6 .header{
+	padding: 6em 0 6px 0;
+}
+
+.banner6  .banner-text{
+	padding-left: 20px;
+}
+
+.banner6 .banner-form{
+	padding-left: 20px;
+}
+
+.banner6 .banner-form form{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+.banner6 .banner-form form input[type="submit"] {
+	background: #e60073;
+	border:none;
+	width: 100%;
+}
+
+.functionality{
+	padding: 10px;
+}
+
+.functionality .nav li{
+	margin: 5px 20px 5px 20px;
+}
+
+.functionality .nav li a,
+.functionality .nav li a:focus,
+.functionality .nav li a:hover{
+	background: transparent;
+	padding: 0;
+}
+
+.functionality .nav li:hover,
+.functionality .nav li.active{
+	opacity: 0.5;
+	cursor: pointer;
+}
+
+.functionality .tabview{
+	border: 1px solid #ddd;
+	box-shadow: 0 0 5px #ddd inset;
+	border-radius: 10px;
+	background: #f2f2f2;
+	margin: auto;
+}
+
+.functionality .tabview .content{
+	margin-top: 20px;
+	line-height: 25px;
+	color: #8e8e8e;
+	font-size: 1.2em;
+    line-height: 1.5em;
+}
+@media (max-width:320px){
+	.functionality .nav img{
+		width: 45px;
+		height: 45px;
+	}
+}
+@media (min-width:320px)  {
+	.banner6 .banner-form{
+		width: 100%;
+	}
+
+	.functionality .tabview{
+		padding: 20px 20px;
+	}
+
+	.functionality .nav img{
+		width: 45px;
+		height: 45px;
+	}
+}
+@media (min-width:480px)  {
+	.banner6 .banner-form{
+		width: 100%;
+	}
+	.functionality .nav img{
+		width: 80px;
+		height: 80px;
+	}
+}
+@media (min-width:600px)  {
+	.banner6 .banner-form{
+		width: 100%;
+	}
+	.functionality .tabview{
+		padding: 20px 50px;
+	}
+}
+@media (min-width:801px)  {
+	.functionality .tabview{
+		width: 600px;
+	}
+	.banner6  .banner-text{
+		width: 600px;
+	}
+	.banner6 .banner-form{
+		width: 600px;
+	}
+}
+@media (min-width:1025px) {
+	.functionality .tabview{
+		width: 600px;
+	}
+	.banner6  .banner-text{
+		width: 600px;
+	}
+	.banner6 .banner-form{
+		width: 600px;
+	}
+}
+@media (min-width:1281px) {
+	.banner6  .banner-text{
+		width: 600px;
+	}
+
+	.banner6 .banner-form{
+		width: 600px;
+	}
+
+	.functionality .tabview{
+		width: 600px;
+	}
+}

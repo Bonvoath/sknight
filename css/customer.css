@@ -1,0 +1,60 @@
+.device--container {
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto 0px;
+	text-align: center;
+
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+
+	&.macbook-device {
+		.device {
+			width: 100%;
+
+			@include mobile {
+				width: 100%;
+			}
+		}
+		.inner--device {
+			width: 75.5%;
+
+			@include mobile {
+				width: 75.5%;
+			}
+		}		
+	}
+}
+.device--container .device {
+		left: 50%;
+		position: absolute;
+		top: 0;
+    	transform: translateX(-50%);
+		z-index: 99;
+}
+.device--container .hidden-device {
+		width: 131%;
+}
+.device--container .hidden-device {
+		max-width: initial;
+		visibility: hidden;
+		position:absolute;
+		width:20%;
+}
+.inner--device {
+	position: relative;
+	margin: 0 auto;
+	overflow-y: hidden;
+	text-align: center;
+  
+	&:after {
+	}
+}
+.inner--device img.screen {
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 15%;
+	padding: 10em 0 8em 0;
+	float:left;
+}

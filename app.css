@@ -1,0 +1,111 @@
+.top-menu-header{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1;
+	background: rgba(17, 17, 17, 0.75);
+	padding: 10px 0;
+}
+.top-menu-header .navbar-default{
+	background: transparent;
+	color: #fff;
+	border-radius: 0;
+	border: none;
+	margin-bottom: 0;
+}
+
+.top-menu-header .navbar-default .navbar-nav > li > a {
+    color: #fff !important;
+    font-size: 16px;
+    text-shadow: none !important;
+    font-weight: bold;
+}
+
+.top-menu-header .navbar-default .navbar-nav > li > a:hover,
+.top-menu-header .navbar-default .navbar-nav > .open > a,
+.top-menu-header .navbar-default .navbar-nav > .open > a:hover,
+.top-menu-header .navbar-default .navbar-nav > .open > a:focus {
+    color: #0088cc !important;
+    background-color: transparent;
+}
+
+.top-menu-header .navbar-nav > li > .dropdown-menu{
+	background: rgba(17, 17, 17, 0.75);
+	padding: 0;
+	border: none;
+	overflow-y:auto;
+	max-height:450px !important;
+}
+
+.dropdown-menu::-webkit-scrollbar {
+	width: 7px;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #D62929;
+	width: 100px;
+}
+
+.top-menu-header .navbar-nav > li > .dropdown-menu > li >a{
+	color: #fff !important;
+	padding: 15px;
+}
+
+.top-menu-header .navbar-nav > li > .dropdown-menu > li >a:hover{
+	background-color: #555;
+}
+	
+.top-menu-header .dropdown-header{
+	color: #58D3F7; //rgb(0, 255, 0);
+	font-weight: bold;
+	font-size: 16px;
+	padding: 10px 5px;
+}
+.dropdown-cus{
+	box-shadow: none;
+	margin:0 5px;
+}
+.dropdown-cus button{
+	box-shadow: none !important;
+	width: 100% !important;
+	background: transparent;
+	border: none;
+	color: #fff;
+	border-radius: 2px !important;
+	font-weight: bold;
+}
+
+.dropdown-cus .dropdown-menu{
+	width: 100%;
+	border-right: 2px;
+	padding: 3px;
+	overflow-y:auto;
+}
+
+.header{
+	padding: 6em 0;
+}
+/*Andy update on 31 Mar 2017 start*/
+.top-menu-header .navbar-nav > li > .dropdown-menu > .column > li >a{
+	color: #fff !important;
+	padding: 15px;
+}
+
+.top-menu-header .navbar-nav > li > .dropdown-menu > .column > li >a:hover{
+	background-color: #555;
+}
+
+.top-menu-header .navbar-nav > li > .dropdown-menu > .column{
+	float: left;
+}
+/*Andy update on 31 Mar 2017 end*/
+
+@media (max-width: 767px){
+.top-menu-header {
+    
+}
+}
